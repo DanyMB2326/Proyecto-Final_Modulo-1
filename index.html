@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre los destinos turísticos más visitados del mundo con nuestra agencia de viajes. Encuentra información y promociones exclusivas.">
+    <meta name="keywords" content="viajes, turismo, destinos turísticos, agencia de viajes">
+    <title>Agencia de Viajes - Destinos Turísticos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Agencia de Viajes</h1>
+        <nav aria-label="Menú principal">
+            <a href="#destinos">Destinos</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinos">
+            <h2>Destinos Turísticos Más Visitados del Mundo</h2>
+            <p>Descubre los lugares más emocionantes para visitar y las experiencias únicas que ofrecemos en cada destino.</p>
+            <ul>
+                <li>París, Francia</li>
+                <li>Roma, Italia</li>
+                <li>Tokio, Japón</li>
+                <li>New York, Estados Unidos</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Destinos</h2>
+            <div class="galeria">
+                <div class="imagen">
+                    <img src="https://th.bing.com/th/id/OLC.Rw6P8xH178Q1TA480x360?&rs=1&pid=ImgDetMain" alt="Vista de la Torre Eiffel en París">
+                    <p class="caption">Torre Eiffel, París</p>
+                </div>
+                <div class="imagen">
+                    <img src="https://th.bing.com/th/id/OIP.hk8smtrmz6bHqyIjILWYzwHaEV?rs=1&pid=ImgDetMain" alt="Coliseo en Roma">
+                    <p class="caption">Coliseo, Roma</p>
+                </div>
+                <div class="imagen">
+                    <img src="https://www.travelbook.de/data/uploads/2022/11/gettyimages-1284581217-1-1040x690.jpg" alt="Vista de Tokio en Japón">
+                    <p class="caption">Tokio, Japón</p>
+                </div>
+                <div class="imagen">
+                    <img src="https://fthmb.tqn.com/ji2uToRmKZZUqVZa5FYTmWeWsD4=/3864x2577/filters:fill(auto,1)/new-york-city-555749235-59d5839a685fbe0011fda06b.jpg" alt="Skyline de New York">
+                    <p class="caption">New York, Estados Unidos</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contacto">
+            <h2>Solicita Más Información</h2>
+            <p>Completa el formulario a continuación para recibir más información sobre nuestros destinos y promociones especiales.</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="destino">Destino de Interés:</label>
+                <select id="destino" name="destino">
+                    <option value="paris">París</option>
+                    <option value="roma">Roma</option>
+                    <option value="tokio">Tokio</option>
+                    <option value="newyork">New York</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+                <button type="submit">Solicitar Información</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Agencia de Viajes - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+
+
