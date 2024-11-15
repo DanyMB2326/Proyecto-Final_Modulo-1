@@ -6,7 +6,7 @@ Este proyecto consiste en una página web para una agencia de viajes que present
 
 ## Descripción General
 
-La página web está construida usando **HTML5** para la estructura y **CSS** para los estilos, implementando un diseño claro y limpio. Además, se utilizan elementos HTML semánticos para mejorar la accesibilidad y el SEO del sitio.
+La página web está construida usando **HTML5** para la estructura y **CSS** para los estilos, implementando un diseño claro y limpio. Además, se utilizan elementos HTML semánticos.
 
 ### Estructura de la Página
 
@@ -32,6 +32,6 @@ La página web está construida usando **HTML5** para la estructura y **CSS** pa
 
 La página está publicada en GitHub Pages y es accesible desde el siguiente enlace:
 
-[GitHub Pages - Agencia de Viajes](https://github.com/DanyMB2326/Proyecto-Final_Modulo-1)
+[GitHub Pages - Agencia de Viajes](https://danymb2326.github.io/Proyecto-Final_Modulo-1/)
 
 
